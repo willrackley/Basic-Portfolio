@@ -1,0 +1,61 @@
+.Container {
+    
+    margin: auto;
+}
+
+.header {
+    
+    margin: 0; 
+    padding: 0;
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+}
+
+.header ul { /* learn how to center the nav bar while keeping left and right alignment */
+    position: relative;
+    max-width: 960px;
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    left: 230px; 
+    padding: 0;
+    text-align: right;
+    
+}
+
+.header li:first-child  {
+    float: left;
+    font-size: 10px;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.header li {
+    display: inline-block;
+    
+}
+
+.header li a {
+    display: inline-block;
+    color: #777777;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: arial;
+}
+
+.myFace {
+    width:200px;
+	max-width:  960px;
+	height:auto;
+    margin: 0 auto;
+    padding-top: 25px;
+    opacity: .8;
+    overflow: hidden;
+}
+
+
