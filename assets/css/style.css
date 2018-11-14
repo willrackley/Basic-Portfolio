@@ -45,7 +45,7 @@ body {
 
 .content {
     max-width: 960px;
-    height: 325px;
+    overflow: auto;
     margin: 0 auto;
     border: 1px solid #dddddd;
     background: #ffffff;
@@ -150,10 +150,10 @@ body {
 
   .contactContent {
     max-width: 960px;
-    height: 325px;
     margin: 0 auto;
     border: 1px solid #dddddd;
     background: #ffffff;
+    overflow: auto;
 }
 
 .contactContent h1 {
@@ -169,15 +169,23 @@ form {
     font-family: arial;
     padding: 20px;
     line-height: 2;
+    
 }
 
 input[type=text] {
     width: 907px; /* for some reason setting the width to 100% made the input field longer than the 'About Me" border */
     padding: 5px;
-
     
 }
-textarea #styled {
-    border: 3px solid #777777;
-    
+.contactContent textarea {
+    border: 1px solid #ccc;
+    width: 915px;
+    height: 150px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 90px;
+    padding: 10px;
 }
