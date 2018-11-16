@@ -33,6 +33,10 @@
     color: #4aaaa5;
 }
 
+.navLinks a:active {
+    color: #302f2f
+}
+
 .logoName {
     background: #4aaaa5;
     margin-right:auto;
